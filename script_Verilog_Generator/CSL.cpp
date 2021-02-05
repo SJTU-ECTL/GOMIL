@@ -7,16 +7,16 @@
 //vector<int> cssa_skip_points = { 4,12,20,26,33,41,49,57,-1 };
 
 /*20*20*/
-vector<vector<int>> splits = { {0,5},{6,13},{14,21},{22,29},{30,36},{37,38} };
-vector<int> cssa_skip_points = { 2,10,18,26,34,-1 };
+//vector<vector<int>> splits = { {0,5},{6,13},{14,21},{22,29},{30,36},{37,38} };
+//vector<int> cssa_skip_points = { 2,10,18,26,34,-1 };
 
 /*16*16*/
 //vector<vector<int>> splits = { {0,7},{8,15},{16,21},{22,28},{29,31} };
 //vector<int> cssa_skip_points = { 4,12,19,25,-1 };
 
 /*10*10*/
-//vector<vector<int>> splits = { {0,3},{4,7},{8,12},{13,15},{16,18} };
-//vector<int> cssa_skip_points = { -1,-1,-1,-1,-1 };
+vector<vector<int>> splits = { {0,3},{4,7},{8,12},{13,15},{16,18} };
+vector<int> cssa_skip_points = { -1,-1,-1,-1,-1 };
 
 /*8*8*/
 //vector<vector<int>> splits = { {0,7},{8,12},{13,14}};
