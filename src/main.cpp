@@ -26,7 +26,7 @@ int main()
 		//define runtime upper bound
 		int Time_Bound_s = 7200;
 		//update the file path
-		string filename = "Tune_WL//gurobi_" + to_string(MULT_SIZE) + "_" + to_string(MULT_SIZE);
+		string filename = "..//Tune_WL//gurobi_" + to_string(MULT_SIZE) + "_" + to_string(MULT_SIZE);
 
 		//optimization process
 		try {
