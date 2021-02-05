@@ -14,6 +14,7 @@ This project proposes GOMIL, a novel global optimization technique for designing
 Note that this project uses C++ interface of Gurobi optimizer 9.0, a mixed ILP solver, to solve the ILP problems (link: https://www.gurobi.com).
 
 ## Getting Started
+### Configuration in VS Studio
 - Install Gurobi at a self-defined path `Gurobi_Path`
 - Set up a C++ project in Visio Studio;
 - Add the source files and header files in the folder `src/`;
@@ -24,8 +25,12 @@ Note that this project uses C++ interface of Gurobi optimizer 9.0, a mixed ILP s
   - VC++ directory->Library directory->Edit->New line: `Gurobi_Path\win64\lib`;
   - Liner->Input->Additional dependencies->Edit->New line： `gurobi_c++mdd2017.lib`;
   - Liner->Input->Additional dependencies->Edit->New line： `gurobi90.lib`.
-
-
+  
+### Configuration in Code
+- `PARAMETER_W` : parameter to control the weight between adder tree's delay and area, e.g., area+ `PARAMETER_W` * delay;
+- `PARAMETER_L` : speedup technique that control the optimized bits of adder tree;
+- `MULT_SIZE` : size of optimized multiplier;
+- `stages_num` : number of compressor tree's stages, which us consistent with wallace tree's.
 
 
 - 
