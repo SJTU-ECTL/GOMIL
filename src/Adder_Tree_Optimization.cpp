@@ -309,8 +309,7 @@ void generate_constraints_x_d_sp_id(vector<vector<GRBVar>> variables_x, vector<v
 
 int glo_opt_adder_tree(vector<int> last_stage, int last_split_size, GRBEnv env)
 {
-	string filename1 = "Tune_WL//" + to_string(MULT_SIZE) + "//W" + to_string(PARAMETER_W) + "L" +
-		to_string(PARAMETER_L) + "//gurobi_glo_adder_" + to_string(MULT_SIZE);
+	string filename1 = "..//Tune_WL//gurobi_glo_adder_" + to_string(MULT_SIZE);
 
 
 	GRBModel model = GRBModel(env);
