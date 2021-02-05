@@ -31,8 +31,7 @@ Note that this project uses C++ interface of Gurobi optimizer 9.0, a mixed ILP s
 - `PARAMETER_L` : speedup technique that control the optimized bits of adder tree;
 - `MULT_SIZE` : size of optimized multiplier;
 - `stages_num` : number of compressor tree's stages, which us consistent with wallace tree's.
-
-
-- 
+-  `Time_Bound_s` : runtime upper bound of optimization;
+- `filename` : the file path of generated solution file ***.sol.
 
 
