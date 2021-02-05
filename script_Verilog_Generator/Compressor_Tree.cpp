@@ -1,12 +1,12 @@
 #pragma warning(disable : 4996)
 #include "Compress_Tree.h"
 #include <cstring>
-int wordlength = 5;
-int stage_number = 3;
+int wordlength = 10;
+int stage_number = 5;
 int full_adder_num = 0;
 int half_adder_num = 0;
 int mux_num = 0;
-string filename1 = "..//Tune_WL//5_5.txt";
+string filename1 = "..//Tune_WL//10_10.txt";
 void verilog_template_PT(string module_name, vector<string> ports, int input_ports_num, ofstream& f2)
 {
 	string tmp;
