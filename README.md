@@ -32,6 +32,14 @@ Note that this project uses C++ interface of Gurobi optimizer 9.0, a mixed ILP s
 - `MULT_SIZE` : size of optimized multiplier;
 - `stages_num` : number of compressor tree's stages, which us consistent with wallace tree's.
 -  `Time_Bound_s` : runtime upper bound of optimization;
-- `filename` : the file path of generated solution file ***.sol.
+
+### Example
+Optimize a 10 * 10  multiplier, set: 
+- MULT_SIZE = 10;
+- stages_num = 5;
+- PARAMETER_W = 10;
+- PARAMETER_L = 8;
+
+In this case, the results of this GOMIL multiplier are saved into `Tune_WL/gurobi_10_10.sol` (compression tree) and `Tune_WL/gurobi_glo_adder_10.sol` (adder tree part).
 
 
