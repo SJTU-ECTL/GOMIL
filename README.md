@@ -18,6 +18,7 @@ Note that this project uses C++ interface of Gurobi optimizer 9.0, a mixed ILP s
 - Set up a C++ project in Visio Studio;
 - Add the source files and header files in the folder `src/`;
 - Configure the library path of Gurobi for this project:
+
   Project->Property->
   - VC++ directory->Include directory->Edit->New line: `Gurobi_Path\win64\include`;
   - VC++ directory->Library directory->Edit->New line: `Gurobi_Path\win64\lib`;
