@@ -8,14 +8,14 @@ int Prefex_elem2_num = 0;
 int Prefex_elem3_num = 0;
 
 /*input: 5*5; */
-vector<vector<vector<int>>> splits = {
-	{/*{0,1},{2,3},*/{4,5},{6,7},{8}},
-	{{4,5},{6,8}},
-	{{4,8}}
-};
-vector<int> carry_bit_index = { 6,4 };
-vector<int> cssa_skip_point = { -1,-1,-1};
-vector<vector<vector<int>>> compensated_nodes;
+// vector<vector<vector<int>>> splits = {
+// 	{/*{0,1},{2,3},*/{4,5},{6,7},{8}},
+// 	{{4,5},{6,8}},
+// 	{{4,8}}
+// };
+// vector<int> carry_bit_index = { 6,4 };
+// vector<int> cssa_skip_point = { -1,-1,-1};
+// vector<vector<vector<int>>> compensated_nodes;
 
 /*input: 6*6; */
 //vector<vector<vector<int>>> splits = {
@@ -52,16 +52,16 @@ vector<vector<vector<int>>> compensated_nodes;
 //vector<vector<vector<int>>> compensated_nodes;
 
 /*input: 10*10; */
-//vector<vector<vector<int>>> splits = {
-//	{/*{0,1},{2,3},*/{4},{5},{6},{7},{8},{9},{10,11},{12},{13},{14,15},{16,17},{18} },
-//	{{4,5},{6,7}, {8,9},{10,12}, {13,15},{16,18}},
-//	{{4,7},{8,12},{13,18}},
-//	{{4,7},{8,18}},
-//	{{4,18}}
-//};
-//vector<int> carry_bit_index = { 16,13,8,4 };
-//vector<int> cssa_skip_point = { -1,-1,-1,-1,-1};
-//vector<vector<vector<int>>> compensated_nodes;
+vector<vector<vector<int>>> splits = {
+	{/*{0,1},{2,3},*/{4},{5},{6},{7},{8},{9},{10,11},{12},{13},{14,15},{16,17},{18} },
+	{{4,5},{6,7}, {8,9},{10,12}, {13,15},{16,18}},
+	{{4,7},{8,12},{13,18}},
+	{{4,7},{8,18}},
+	{{4,18}}
+};
+vector<int> carry_bit_index = { 16,13,8,4 };
+vector<int> cssa_skip_point = { -1,-1,-1,-1,-1};
+vector<vector<vector<int>>> compensated_nodes;
 
 
 /*input: 16*16;*/
