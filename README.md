@@ -14,12 +14,11 @@ This project proposes GOMIL, a novel global optimization technique for designing
 Note that this project uses C++ interface of Gurobi optimizer 9.0, a mixed ILP solver, to solve the ILP problems (link: https://www.gurobi.com).
 
 ## Getting Started
-
 - Install Gurobi at a self-defined path `Gurobi_Path`
 - Set up a C++ project in Visio Studio;
 - Add the source files and header files in the folder `src/`;
 - Configure the library path of Gurobi for this project:
-  Project->Property:
+  Project->Property->
   - VC++ directory->Include directory->Edit->New line: `Gurobi_Path\win64\include`;
   - VC++ directory->Library directory->Edit->New line: `Gurobi_Path\win64\lib`;
   - Liner->Input->Additional dependencies->Edit->New line： `gurobi_c++mdd2017.lib`;
