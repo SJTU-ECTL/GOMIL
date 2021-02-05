@@ -4,12 +4,10 @@
 #include <vector>
 #include <string>
 using namespace std;
-string filename0 = "gurobi_5_5.sol";
-string filename1 = "5_5.txt";
-//string filename2 = "gurobi_glo_adder_16.sol";
-//string filename3 = "prefex_16.sol";
-int stage_num = 3;
-int num_of_elements = 9;
+string filename0 = "..//Tune_WL//gurobi_10_10.sol";
+string filename1 = "10_10.txt"; // path of generated compressor tree result file
+int stage_num = 5;
+int num_of_elements = 19; //2*m-1
 
 void sci2db(string& strSci, string& value_int)
 {
