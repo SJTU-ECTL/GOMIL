@@ -5,7 +5,7 @@
 #include <string>
 using namespace std;
 string filename0 = "..//Tune_WL//gurobi_10_10.sol";
-string filename1 = "10_10.txt"; // path of generated compressor tree result file
+string filename1 = "..//Tune_WL//10_10.txt"; // path of generated compressor tree result file
 int stage_num = 5;
 int num_of_elements = 19; //2*m-1
 
