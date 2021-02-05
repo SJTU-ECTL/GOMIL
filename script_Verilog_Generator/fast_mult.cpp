@@ -5,7 +5,7 @@
 int Compress_Tree_num = 0;
 int Prefex_Tree_num = 0;
 int CSL_num = 0;
-int splits_num = 3;
+int splits_num = 5;
 int cssa_skip_points_num = 0;
 void verilog_template_FM(string module_name, vector<string> ports, ofstream& f2)
 {
