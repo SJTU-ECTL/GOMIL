@@ -51,6 +51,7 @@ In this case, the results of this GOMIL multiplier are saved into `Tune_WL/gurob
   - `filename1` : path of generated compressor result file, e.g., `Tune_WL/10_10.txt`;
   - `stage_num` : number of compressor tree's stages;
   - `num_of_elements` : 2 * MULT_SIZE -1;
+- Run this code and the result file .txt is saved in `Tune_WL/`.
 
 ### Generate verilog files for GOMIL multipliers
 - Set up a C++ project in Visio Studio;
@@ -75,4 +76,4 @@ In this case, the results of this GOMIL multiplier are saved into `Tune_WL/gurob
   
   Note that all the above configurations about optimized prefix tree can be achieved from adder tree's optimization solution file, e.g., `Tune_WL/gurobi_glo_adder_10.sol`, and we will modify the code to generate these configurations automatically!
   
-  
+- Run this code and all related verilog files .v are generated in `script_Verilog_Generator/`.
