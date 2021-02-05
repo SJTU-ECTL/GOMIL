@@ -23,8 +23,8 @@ Note that this project uses C++ interface of Gurobi optimizer 9.0, a mixed ILP s
   Project->Property->
   - VC++ directory->Include directory->Edit->New line: `Gurobi_Path\win64\include`;
   - VC++ directory->Library directory->Edit->New line: `Gurobi_Path\win64\lib`;
-  - Liner->Input->Additional dependencies->Edit->New line： `gurobi_c++mdd2017.lib`;
-  - Liner->Input->Additional dependencies->Edit->New line： `gurobi90.lib`.
+  - Linker->Input->Additional dependencies->Edit->New line： `gurobi_c++mdd2017.lib`;
+  - Linker->Input->Additional dependencies->Edit->New line： `gurobi90.lib`.
   
 ### Configuration in Code
 - `PARAMETER_W` : parameter to control the weight between adder tree's delay and area, e.g., area+ `PARAMETER_W` * delay;
