@@ -7,8 +7,8 @@
 //vector<int> cssa_skip_points = { 4,12,20,26,33,41,49,57,-1 };
 
 /*20*20*/
-//vector<vector<int>> splits = { {0,5},{6,13},{14,21},{22,29},{30,36},{37,38} };
-//vector<int> cssa_skip_points = { 2,10,18,26,34,-1 };
+vector<vector<int>> splits = { {0,5},{6,13},{14,21},{22,29},{30,36},{37,38} };
+vector<int> cssa_skip_points = { 2,10,18,26,34,-1 };
 
 /*16*16*/
 //vector<vector<int>> splits = { {0,7},{8,15},{16,21},{22,28},{29,31} };
@@ -31,8 +31,8 @@
 //vector<int> cssa_skip_points = { -1,-1,-1 };
 
 /*5*5*/
-vector<vector<int>> splits = { {0,3},{4,5},{6,8}};
-vector<int> cssa_skip_points = { -1,-1,-1};
+// vector<vector<int>> splits = { {0,3},{4,5},{6,8}};
+// vector<int> cssa_skip_points = { -1,-1,-1};
 
 
 void verilog_template_CSL(string module_name, vector<string> ports, int input_ports_num, ofstream& f2, vector<int> input_ports_size)
