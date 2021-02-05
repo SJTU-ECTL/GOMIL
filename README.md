@@ -45,7 +45,7 @@ In this case, the results of this GOMIL multiplier are saved into `Tune_WL/gurob
 ## Post-Processing
 ### Generate the result file of optimized Compressor tree
 - Set up a C++ project in Visio Studio;
-- Add the source file `script_Compressor_tree/main.cpp`;
+- Add the source file `script_for_Compressor_tree/main.cpp`;
 - Configuration in code:
   - `filename0` : path of optimization solution file, e.g., `Tune_WL/gurobi_10_10.sol`;
   - `filename1` : path of generated compressor result file, e.g., `Tune_WL/10_10.txt`;
