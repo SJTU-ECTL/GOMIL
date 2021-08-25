@@ -1,8 +1,8 @@
 # GOMIL: Global Optimization of Multiplier by Integer Linear Programming
 This project proposes GOMIL, a novel global optimization technique for designing better multipliers. The main idea of GOMIL is to establish an ILP formulation to jointly optimize the compressor tree and the prefix structure in a multiplier [1].
 
-## Reference paper(s):
-- [1]: GOMIL: Global Optimization of Multiplier by Integer Linear Programming (Weihua Xiao, Weikang Qian, Weiqiang Liu, DATE 2021)
+## Reference paper:
+Weihua Xiao, Weikang Qian, and Weiqiang Liu, "[GOMIL: global optimization of multiplier by integer linear programming](https://umji.sjtu.edu.cn/~wkqian/papers/Xiao_Qian_Liu_GOMIL_Global_Optimization_of_Multiplier_by_Integer_Linear_Programming.pdf)," in *Proceedings of the 2021 Design, Automation, and Test in Europe Conference (DATE)*, virtual event, Grenoble, France, 2021.
 
 ## Requirements
 - OS: 64-bit Windows/Linux
